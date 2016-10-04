@@ -9,6 +9,7 @@
 
 
     <link rel="stylesheet" href="css/normalized-reset.css">
+    <link rel="stylesheet" href="css/navigation.css">
     <link rel="stylesheet" href="css/style.css">
     <script src="js/vendor/modernizr2.8.3.min.js"></script>
 </head>
@@ -16,8 +17,42 @@
 <body>
     <!-- Add your site or application content here -->
 
+    <div class="container">
+        <header class="page-header cf">
+            <div class="logo">
+                <img src="http://placehold.it/200x200" alt="placeholder logo">
+            </div>
+            <h1>GOT VOTE NYC 2016!</h1>
+        </header>
+        
+        <a name="top"></a>
+           
+        <div class="menu">
+            <a href="#" id="menu_button">Menu</a>
+        </div>
 
-<h1>Hello World</h1>
+        <nav id="main_nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="test-page.html">Test Page</a></li>
+                <li><a href="candidates.html">Candidates</a></li>
+                <li><a href="#">About Me</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <!--end main_nav -->
+
+    
+    
+    <!--    Example to go back to the top of the page-->
+        <a href="#top">Top</a>
+        <footer>
+            <p>&copy; Chris Stein 2016</p>
+        </footer>
+
+    </div>
+    <!--end .container-->
+
 
 
     <!-- Make sure your content is done before this -->
@@ -33,6 +68,38 @@
     <script>
         jQuery(document).ready(function ($) {
             // Your jQuery code here, using $ to refer to jQuery.
+                        /* 
+               This is the code to slide the main navigation up and down.
+            */
+
+            $('#menu_button').click(function (evt) {
+                console.log('evt', evt);
+                evt.preventDefault();
+                $('#main_nav').slideToggle();
+            }); //end menu_button
+
+
+            //this code taken from Sebastien on Stackoverflow: http://stackoverflow.com/questions/6461300/triggering-jquery-with-css-media-queries
+            //it's been rearranged slightly
+            //leave the lines below and then write your code in the doneResizing function below
+            doneResizing();
+            var id;
+            $(window).resize(function () {
+                clearTimeout(id);
+                id = setTimeout(doneResizing, 0);
+            });
+
+            function doneResizing() {
+                //this code requires that you have Modernizr included BEFORE this file. Here is modernizr: http://modernizr.com/
+                //the trick with min-width media queries is that you need to start from your largest and go down. In the else at the end you can write  js for any size below your smallest min-width.
+
+                 if (Modernizr.mq('screen and (min-width:45em)')) {
+                    $('#main_nav').show(); //make sure it is showing at larger sizes
+                } else {
+                    //Your code goes here for screens below 45em in this example. 
+                    $('#main_nav').hide(); //make sure hiding at smaller sizes
+                }
+            } //end doneResizing
         });
     </script>
 </body>
