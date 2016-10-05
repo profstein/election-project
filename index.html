@@ -22,11 +22,11 @@
             <div class="logo">
                 <img src="http://placehold.it/200x200" alt="placeholder logo">
             </div>
-            <h1>GOT VOTE NYC 2016!</h1>
+            <h1>NYC Votes 2016</h1>
         </header>
-        
-        <a name="top"></a>
-           
+
+        <a id="top"></a>
+
         <div class="menu">
             <a href="#" id="menu_button">Menu</a>
         </div>
@@ -34,20 +34,32 @@
         <nav id="main_nav">
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="test-page.html">Test Page</a></li>
+                <li><a href="register.html">Register</a></li>
+                <li><a href="election-day.html">Vote</a></li>
                 <li><a href="candidates.html">Candidates</a></li>
-                <li><a href="#">About Me</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="resources.html">Resources</a></li>
             </ul>
         </nav>
         <!--end main_nav -->
+        
+        <article class="main-content">
+            <header class="content-header">
+                <h2>Homepage</h2>
+            </header>
+            
+            
+            
+        </article>    
+        <!--        end .main-content -->
 
-    
-    
-    <!--    Example to go back to the top of the page-->
+        <!--    Example to go back to the top of the page-->
         <a href="#top">Top</a>
         <footer>
-            <p>&copy; Chris Stein 2016</p>
+            <p class="copyright">&copy; Get Out the Vote NYC 2016</p>
+            <p class="about">
+                <a href="about.html">About this Site</a>
+            </p>
         </footer>
 
     </div>
@@ -68,7 +80,7 @@
     <script>
         jQuery(document).ready(function ($) {
             // Your jQuery code here, using $ to refer to jQuery.
-                        /* 
+            /* 
                This is the code to slide the main navigation up and down.
             */
 
@@ -93,7 +105,7 @@
                 //this code requires that you have Modernizr included BEFORE this file. Here is modernizr: http://modernizr.com/
                 //the trick with min-width media queries is that you need to start from your largest and go down. In the else at the end you can write  js for any size below your smallest min-width.
 
-                 if (Modernizr.mq('screen and (min-width:45em)')) {
+                if (Modernizr.mq('screen and (min-width:45em)')) {
                     $('#main_nav').show(); //make sure it is showing at larger sizes
                 } else {
                     //Your code goes here for screens below 45em in this example. 
