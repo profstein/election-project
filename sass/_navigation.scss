@@ -39,7 +39,7 @@
 
 
 /* ============================
-* NAVIGATION 
+* NAVIGATION
 * Modified from: http://webdesign.tutsplus.com/tutorials/htmlcss-tutorials/a-simple-responsive-mobile-first-navigation/
 * =============================*/
 
@@ -105,7 +105,7 @@
 
 /* these don't have to be separate. We did so for two reasons:
 1. Easy to copy and paste this into new design
-2. Depending on your site you may need separate break points for the nav. You may want to see what width is needed to fit your nav horizontally without breaking and use that as the breakpoint. 
+2. Depending on your site you may need separate break points for the nav. You may want to see what width is needed to fit your nav horizontally without breaking and use that as the breakpoint.
 It should also be noted that there is only one media query because this CSS moves the nav to the top where it can stay for all of the other sizes.
 */
 
@@ -121,8 +121,8 @@ It should also be noted that there is only one media query because this CSS move
         /* move main_nav to top of the screen */
         position: absolute;
         top: 0;
-        left: 0; 
-        
+        left: 0;
+
         /* other main nav styling */
         width: 100%;
         display: block;
