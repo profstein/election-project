@@ -1,0 +1,32 @@
+//PAGE HEADER STYLING
+.page-header{
+    @include container;
+    background-color: $primary;
+    padding: gutter();
+    color:#fff;
+
+    .logo{
+        @include span(5);
+    }
+
+    h1{
+        @include span(7);
+    }
+
+}
+
+//PAGE FOOTER STYLING
+.page-footer{
+    @include container;
+    background-color: $primary;
+    padding: gutter();
+    color:#fff;
+
+    .copyright{
+        @include span(6);
+    }
+    .about{
+        @include span(6 last);
+    }
+
+}
