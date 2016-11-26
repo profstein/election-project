@@ -1,0 +1,46 @@
+// Change the palette colors to your own. You can also change which color is where and add your own variables.
+
+//colors from Beautiful American Palette by Oktober http://www.colourlovers.com/palette/83708/Beautiful_American
+$palette1: #AC0000; //harvard Red
+$palette2: #FFF;  //white
+$palette3: #C8D3E6; //light blue "frosty breeze"
+$palette4: #657FAD ; //medium blue "institutional blue"
+$palette5: #002255 ; //dark blue changed slightly from original reference palette
+
+//Now we set some of the main colors based on the palette
+
+$primary: $palette5 ;
+$background: lighten($palette3, 10%);
+$highlight: $palette1;
+$link: $highlight;
+$font-body: #333; //dark grey
+$font-heading: $palette5;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* some colors I'm saving to potentially use */
+//
+//	$blue: #2790B0; /* blue */
+//	$darkblue: #2B4E72; /* darker blue */
+//	$grey: #4E4D4A; /* grey */
+//	$darkgrey: #353432; /* darker grey */
+//	$red: #B13B2E; /* red */
+//	$darkred: #8C2318; /* darker red */

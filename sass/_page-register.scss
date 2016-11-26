@@ -1,0 +1,80 @@
+//register page layout
+.register{
+
+
+    .main-content{
+        @include container;
+    }
+
+    .content-header{
+        padding: gutter();
+    }
+
+    .intro-info{
+        background-color: $palette3;
+        padding: gutter();
+        @include clearfix;
+
+    }
+    .register-info{
+        @include span(8);
+//        outline: 1px solid red;
+
+    }
+    .deadline{
+        @include span(4 last);
+        background-color: firebrick;
+        color: $palette2;
+        padding: 10px;
+    }
+
+    .change-reg{
+        @include span(4 break);
+//        @include gutters(40px);
+    }
+    .eligibility{
+        @include span(4);
+//        @include gutters(.3333);
+    }
+    .check-reg{
+        @include span(4 last);
+//        @include gutters(.3333);
+    }
+
+    //how to register section
+    .how-to-register{
+        padding: gutter();
+    }
+
+
+    //Special Populations
+    .special-populations{
+         background-color: $palette3;
+        padding: gutter();
+        @include clearfix;
+
+        h3{
+            margin-top: 0;
+        }
+    }
+
+    .student-voters{
+        @include span(4 break);
+    }
+    .homeless-voters{
+        @include span(4);
+    }
+    .overseas-voters{
+        @include span(4 last);
+    }
+
+    .events{
+        @include span(6);
+    }
+    .get-involved{
+        @include span(6);
+    }
+    .resources{
+        @include span(12);
+    }
+}

@@ -1,0 +1,23 @@
+//STYLING FOR GLOBAL SECTIONS ======================================
+
+.page-header{
+    background-color: $primary;
+    color: #fff;
+    @include container;
+    padding: gutter() 0;
+
+    .logo{
+        @include span(5);
+    }
+
+    h1{
+        @include span(7);
+    }
+}
+
+footer{
+    background-color: $primary;
+    color: #fff;
+    @include span(12);
+    padding: gutter();
+}

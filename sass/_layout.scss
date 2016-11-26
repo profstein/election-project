@@ -1,0 +1,12 @@
+//GLOBAL SUSY LAYOUT SETTINGS ======================================
+@import "susy";
+$global-box-sizing: border-box;
+//$gutters: 40px;
+$susy: (
+    columns: 12,
+    gutters: 1/2,
+    gutter-position: inside,
+    container: 1500px,
+    global-box-sizing: border-box,
+);
+
