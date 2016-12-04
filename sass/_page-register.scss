@@ -1,0 +1,69 @@
+//STYLES FOR THE REGISTER PAGE
+.register{
+    .main-content{
+        @include container;
+    }
+
+    .register-info{
+        @include span(8);
+    }
+    .deadline{
+        @include span(4 last);
+        background-color: $highlight;
+        color: #fff;
+        padding: 10px;
+        h5{
+            margin-top: 0;
+        }
+    }
+
+    .change-reg{
+        @include span(4 break);
+    }
+    .eligibility{
+        @include span(4);
+    }
+    .check-reg{
+        @include span(4 last);
+    }
+
+    .how-to-register{
+
+        .introduction{
+            @include span(12 break);
+        }
+
+        .register-option{
+            @include span(12 break);
+        }
+    }
+
+    .special-populations{
+        background-color: $palette3;
+        padding: gutter();
+        @include clearfix;
+
+        .student-voters{
+            @include span(4 break);
+        }
+        .homeless-voters{
+            @include span(4);
+        }
+        .overseas-voters{
+            @include span(4 last);
+        }
+    }
+
+    .events{
+        @include span(6 break);
+    }
+    .get-involved{
+        @include span(6 last);
+    }
+
+    .resources{
+        @include span(12);
+    }
+
+
+}//end .register styles
