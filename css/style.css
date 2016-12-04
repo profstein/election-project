@@ -813,6 +813,11 @@ It should also be noted that there is only one media query because this CSS move
 }
 
 /* line 2, /Volumes/Samsung_T3/MMP 240/Election Project/election-project/sass/_general.scss */
+li {
+  margin-bottom: 1em;
+}
+
+/* line 6, /Volumes/Samsung_T3/MMP 240/Election Project/election-project/sass/_general.scss */
 .page-header {
   max-width: 1500px;
   margin-left: auto;
@@ -829,7 +834,7 @@ It should also be noted that there is only one media query because this CSS move
   clear: both;
 }
 
-/* line 8, /Volumes/Samsung_T3/MMP 240/Election Project/election-project/sass/_general.scss */
+/* line 12, /Volumes/Samsung_T3/MMP 240/Election Project/election-project/sass/_general.scss */
 .page-header .logo {
   width: 41.66667%;
   float: left;
@@ -837,7 +842,7 @@ It should also be noted that there is only one media query because this CSS move
   padding-right: 1.38889%;
 }
 
-/* line 12, /Volumes/Samsung_T3/MMP 240/Election Project/election-project/sass/_general.scss */
+/* line 16, /Volumes/Samsung_T3/MMP 240/Election Project/election-project/sass/_general.scss */
 .page-header h1 {
   width: 58.33333%;
   float: left;
@@ -845,7 +850,7 @@ It should also be noted that there is only one media query because this CSS move
   padding-right: 1.38889%;
 }
 
-/* line 19, /Volumes/Samsung_T3/MMP 240/Election Project/election-project/sass/_general.scss */
+/* line 23, /Volumes/Samsung_T3/MMP 240/Election Project/election-project/sass/_general.scss */
 .page-footer {
   max-width: 1500px;
   margin-left: auto;
@@ -862,7 +867,7 @@ It should also be noted that there is only one media query because this CSS move
   clear: both;
 }
 
-/* line 25, /Volumes/Samsung_T3/MMP 240/Election Project/election-project/sass/_general.scss */
+/* line 29, /Volumes/Samsung_T3/MMP 240/Election Project/election-project/sass/_general.scss */
 .page-footer .copyright {
   width: 50%;
   float: left;
@@ -870,7 +875,7 @@ It should also be noted that there is only one media query because this CSS move
   padding-right: 1.38889%;
 }
 
-/* line 28, /Volumes/Samsung_T3/MMP 240/Election Project/election-project/sass/_general.scss */
+/* line 32, /Volumes/Samsung_T3/MMP 240/Election Project/election-project/sass/_general.scss */
 .page-footer .about {
   width: 50%;
   float: right;
