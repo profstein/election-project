@@ -28,7 +28,7 @@
     }
 
     .how-to-register{
-
+        @include clearfix;
         .introduction{
             @include span(12 break);
         }

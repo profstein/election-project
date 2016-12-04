@@ -941,6 +941,13 @@ It should also be noted that there is only one media query because this CSS move
   padding-right: 1.38889%;
 }
 
+/* line 3, /Volumes/Samsung_T3/MMP 240/Election Project/election-project/sass/_utilities.scss */
+.register .how-to-register:after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+
 /* line 32, /Volumes/Samsung_T3/MMP 240/Election Project/election-project/sass/_page-register.scss */
 .register .how-to-register .introduction {
   clear: both;
