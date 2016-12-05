@@ -34,3 +34,17 @@ li{
     }
 
 }
+
+
+// LINK Styling
+a{
+    color: $highlight;
+    text-decoration: none;
+    &:visited{
+        color: darken($highlight, 15%);
+    }
+
+    &:hover{
+        border-bottom: $highlight 2px solid;
+    }
+}

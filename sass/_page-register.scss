@@ -1,14 +1,14 @@
 //STYLES FOR THE REGISTER PAGE
 .register{
     .main-content{
-        @include container;
+//        @include container;
     }
 
     .register-info{
-        @include span(8);
+//        @include span(8);
     }
     .deadline{
-        @include span(4 last);
+//        @include span(4 last);
         background-color: $highlight;
         color: #fff;
         padding: 10px;
@@ -18,23 +18,23 @@
     }
 
     .change-reg{
-        @include span(4 break);
+//        @include span(4 break);
     }
     .eligibility{
-        @include span(4);
+//        @include span(4);
     }
     .check-reg{
-        @include span(4 last);
+//        @include span(4 last);
     }
 
     .how-to-register{
-        @include clearfix;
+//        @include clearfix;
         .introduction{
             @include span(12 break);
         }
 
         .register-option{
-            @include span(12 break);
+//            @include span(12 break);
         }
     }
 
@@ -44,25 +44,31 @@
         @include clearfix;
 
         .student-voters{
-            @include span(4 break);
+//            @include span(4 break);
         }
         .homeless-voters{
-            @include span(4);
+//            @include span(4);
         }
         .overseas-voters{
-            @include span(4 last);
+//            @include span(4 last);
         }
     }
 
     .events{
-        @include span(6 break);
+//        @include span(6 break);
     }
     .get-involved{
-        @include span(6 last);
+//        @include span(6 last);
     }
 
     .resources{
-        @include span(12);
+//        @include span(12);
+        background-color: darken($palette3,25%);
+        padding: .5em 0;
+
+        a{
+            color: $highlight;
+        }
     }
 
 
