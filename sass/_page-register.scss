@@ -1,75 +1,34 @@
-//STYLES FOR THE REGISTER PAGE
+//nest everything in the register class to ensure it only applies to this page
 .register{
-    .main-content{
-//        @include container;
-    }
 
-    .register-info{
-//        @include span(8);
-    }
-    .deadline{
-//        @include span(4 last);
-        background-color: $highlight;
-        color: #fff;
-        padding: 10px;
-        h5{
-            margin-top: 0;
+    .intro-info{
+        @include clearfix;
+        .deadline{
+            background-color: $highlight;
         }
-    }
+    }//.intro-info
 
-    .change-reg{
-//        @include span(4 break);
-    }
-    .eligibility{
-//        @include span(4);
-    }
-    .check-reg{
-//        @include span(4 last);
-    }
+    .register-status{
+        background-color: $palette3;
+        @include clearfix;
+    }//.register-status
 
     .how-to-register{
-//        @include clearfix;
-        .introduction{
-            @include span(12 break);
-        }
-
-        .register-option{
-//            @include span(12 break);
-        }
-    }
+        @include clearfix;
+    }//.how-to-register
 
     .special-populations{
         background-color: $palette3;
-        padding: gutter();
         @include clearfix;
+    }//end .special-populations
 
-        .student-voters{
-//            @include span(4 break);
-        }
-        .homeless-voters{
-//            @include span(4);
-        }
-        .overseas-voters{
-//            @include span(4 last);
-        }
-    }
-
-    .events{
-//        @include span(6 break);
-    }
-    .get-involved{
-//        @include span(6 last);
-    }
+    .take-action{
+        background-color: darken($palette3, 15%);
+        @include clearfix;
+    }// end .take-action
 
     .resources{
-//        @include span(12);
-        background-color: darken($palette3,25%);
-        padding: .5em 0;
-
-        a{
-            color: $highlight;
-        }
-    }
-
-
-}//end .register styles
+        background-color: $palette3;
+        @include clearfix;
+    }//.resources
+}
