@@ -714,6 +714,11 @@ textarea {
 }
 
 /* line 18, /Volumes/Samsung_T3/MMP 240/Election Project/election-project/sass/_navigation.scss */
+#main_nav li {
+  margin-bottom: 0;
+}
+
+/* line 22, /Volumes/Samsung_T3/MMP 240/Election Project/election-project/sass/_navigation.scss */
 #main_nav li a {
   display: block;
   color: #fff;
@@ -726,26 +731,26 @@ textarea {
   font-weight: 900;
 }
 
-/* line 29, /Volumes/Samsung_T3/MMP 240/Election Project/election-project/sass/_navigation.scss */
+/* line 33, /Volumes/Samsung_T3/MMP 240/Election Project/election-project/sass/_navigation.scss */
 #main_nav li a:hover {
   color: #555;
   background-color: #fff;
 }
 
-/* line 34, /Volumes/Samsung_T3/MMP 240/Election Project/election-project/sass/_navigation.scss */
+/* line 38, /Volumes/Samsung_T3/MMP 240/Election Project/election-project/sass/_navigation.scss */
 #main_nav li a:active {
   color: #555;
   background-color: #f90;
 }
 
 /* menu button */
-/* line 41, /Volumes/Samsung_T3/MMP 240/Election Project/election-project/sass/_navigation.scss */
+/* line 45, /Volumes/Samsung_T3/MMP 240/Election Project/election-project/sass/_navigation.scss */
 .menu {
   margin-top: 1em;
   margin-bottom: 1em;
 }
 
-/* line 46, /Volumes/Samsung_T3/MMP 240/Election Project/election-project/sass/_navigation.scss */
+/* line 50, /Volumes/Samsung_T3/MMP 240/Election Project/election-project/sass/_navigation.scss */
 .menu a {
   padding: 0.5em 0.625em;
   /*10/16 */
@@ -755,7 +760,7 @@ textarea {
   text-decoration: none;
 }
 
-/* line 55, /Volumes/Samsung_T3/MMP 240/Election Project/election-project/sass/_navigation.scss */
+/* line 59, /Volumes/Samsung_T3/MMP 240/Election Project/election-project/sass/_navigation.scss */
 .menu a:hover {
   color: #555;
   background-color: #f90;
@@ -772,11 +777,11 @@ It should also be noted that there is only one media query because this CSS move
 /* 45em is about 720px depending on the base font-size */
 @media only screen and (min-width: 45em) {
   /* hide the menu button */
-  /* line 77, /Volumes/Samsung_T3/MMP 240/Election Project/election-project/sass/_navigation.scss */
+  /* line 81, /Volumes/Samsung_T3/MMP 240/Election Project/election-project/sass/_navigation.scss */
   .menu {
     display: none;
   }
-  /* line 80, /Volumes/Samsung_T3/MMP 240/Election Project/election-project/sass/_navigation.scss */
+  /* line 84, /Volumes/Samsung_T3/MMP 240/Election Project/election-project/sass/_navigation.scss */
   #main_nav {
     /* move main_nav to top of the screen */
     position: absolute;
@@ -788,24 +793,24 @@ It should also be noted that there is only one media query because this CSS move
     overflow: hidden;
     background-color: #555;
   }
-  /* line 92, /Volumes/Samsung_T3/MMP 240/Election Project/election-project/sass/_navigation.scss */
+  /* line 96, /Volumes/Samsung_T3/MMP 240/Election Project/election-project/sass/_navigation.scss */
   #main_nav li {
     display: inline;
     line-height: 1em;
   }
-  /* line 96, /Volumes/Samsung_T3/MMP 240/Election Project/election-project/sass/_navigation.scss */
+  /* line 100, /Volumes/Samsung_T3/MMP 240/Election Project/election-project/sass/_navigation.scss */
   #main_nav li a {
     float: left;
     padding: 0.9375em;
     /* 10/16  and  15/16 */
     border-bottom: none;
   }
-  /* line 102, /Volumes/Samsung_T3/MMP 240/Election Project/election-project/sass/_navigation.scss */
+  /* line 106, /Volumes/Samsung_T3/MMP 240/Election Project/election-project/sass/_navigation.scss */
   #main_nav li a.top {
     display: none;
   }
   /* move the rest of the page down accordingly */
-  /* line 106, /Volumes/Samsung_T3/MMP 240/Election Project/election-project/sass/_navigation.scss */
+  /* line 110, /Volumes/Samsung_T3/MMP 240/Election Project/election-project/sass/_navigation.scss */
   .container {
     margin-top: 4em;
     /* adjust depending on the height of your nav */
