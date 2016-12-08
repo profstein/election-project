@@ -911,12 +911,12 @@ a:hover {
   clear: both;
 }
 
-/* line 6, /Volumes/Samsung_T3/MMP 240/Election Project/election-project/sass/_page-register.scss */
+/* line 7, /Volumes/Samsung_T3/MMP 240/Election Project/election-project/sass/_page-register.scss */
 .register .intro-info .deadline {
   background-color: #AC0000;
 }
 
-/* line 12, /Volumes/Samsung_T3/MMP 240/Election Project/election-project/sass/_page-register.scss */
+/* line 13, /Volumes/Samsung_T3/MMP 240/Election Project/election-project/sass/_page-register.scss */
 .register .register-status {
   background-color: #C8D3E6;
 }
@@ -935,7 +935,7 @@ a:hover {
   clear: both;
 }
 
-/* line 21, /Volumes/Samsung_T3/MMP 240/Election Project/election-project/sass/_page-register.scss */
+/* line 22, /Volumes/Samsung_T3/MMP 240/Election Project/election-project/sass/_page-register.scss */
 .register .special-populations {
   background-color: #C8D3E6;
 }
@@ -947,7 +947,7 @@ a:hover {
   clear: both;
 }
 
-/* line 26, /Volumes/Samsung_T3/MMP 240/Election Project/election-project/sass/_page-register.scss */
+/* line 27, /Volumes/Samsung_T3/MMP 240/Election Project/election-project/sass/_page-register.scss */
 .register .take-action {
   background-color: #93a9ce;
 }
@@ -959,7 +959,7 @@ a:hover {
   clear: both;
 }
 
-/* line 31, /Volumes/Samsung_T3/MMP 240/Election Project/election-project/sass/_page-register.scss */
+/* line 32, /Volumes/Samsung_T3/MMP 240/Election Project/election-project/sass/_page-register.scss */
 .register .resources {
   background-color: #C8D3E6;
 }
@@ -969,6 +969,189 @@ a:hover {
   content: " ";
   display: table;
   clear: both;
+}
+
+@media (min-width: 600px) {
+  /* line 40, /Volumes/Samsung_T3/MMP 240/Election Project/election-project/sass/_page-register.scss */
+  .register .section-container {
+    max-width: 1900px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* line 12, /Applications/Scout-App.app/Contents/Resources/app.nw/bower_components/susy/sass/susy/output/support/_clearfix.scss */
+  .register .section-container:after {
+    content: " ";
+    display: block;
+    clear: both;
+  }
+  /* line 45, /Volumes/Samsung_T3/MMP 240/Election Project/election-project/sass/_page-register.scss */
+  .register .intro-info .register-info {
+    clear: both;
+    width: 66.66667%;
+    float: left;
+    padding-left: 1.38889%;
+    padding-right: 1.38889%;
+  }
+  /* line 48, /Volumes/Samsung_T3/MMP 240/Election Project/election-project/sass/_page-register.scss */
+  .register .intro-info .deadline {
+    width: 33.33333%;
+    float: right;
+    padding-left: 1.38889%;
+    padding-right: 1.38889%;
+  }
+  /* line 55, /Volumes/Samsung_T3/MMP 240/Election Project/election-project/sass/_page-register.scss */
+  .register .register-status .eligibility {
+    width: 100%;
+    float: right;
+    padding-left: 1.38889%;
+    padding-right: 1.38889%;
+  }
+  /* line 58, /Volumes/Samsung_T3/MMP 240/Election Project/election-project/sass/_page-register.scss */
+  .register .register-status .check-reg {
+    clear: both;
+    width: 50%;
+    float: left;
+    padding-left: 1.38889%;
+    padding-right: 1.38889%;
+  }
+  /* line 61, /Volumes/Samsung_T3/MMP 240/Election Project/election-project/sass/_page-register.scss */
+  .register .register-status .change-reg {
+    width: 50%;
+    float: right;
+    padding-left: 1.38889%;
+    padding-right: 1.38889%;
+  }
+  /* line 66, /Volumes/Samsung_T3/MMP 240/Election Project/election-project/sass/_page-register.scss */
+  .register .how-to-register {
+    width: 100%;
+    float: right;
+    padding-left: 1.38889%;
+    padding-right: 1.38889%;
+  }
+  /* line 70, /Volumes/Samsung_T3/MMP 240/Election Project/election-project/sass/_page-register.scss */
+  .register .special-populations {
+    clear: both;
+  }
+  /* line 72, /Volumes/Samsung_T3/MMP 240/Election Project/election-project/sass/_page-register.scss */
+  .register .special-populations .student-voters {
+    width: 100%;
+    float: right;
+    padding-left: 1.38889%;
+    padding-right: 1.38889%;
+  }
+  /* line 75, /Volumes/Samsung_T3/MMP 240/Election Project/election-project/sass/_page-register.scss */
+  .register .special-populations .homeless-voters {
+    clear: both;
+    width: 50%;
+    float: left;
+    padding-left: 1.38889%;
+    padding-right: 1.38889%;
+  }
+  /* line 78, /Volumes/Samsung_T3/MMP 240/Election Project/election-project/sass/_page-register.scss */
+  .register .special-populations .overseas-voters {
+    width: 50%;
+    float: right;
+    padding-left: 1.38889%;
+    padding-right: 1.38889%;
+  }
+  /* line 84, /Volumes/Samsung_T3/MMP 240/Election Project/election-project/sass/_page-register.scss */
+  .register .take-action .events {
+    clear: both;
+    width: 50%;
+    float: left;
+    padding-left: 1.38889%;
+    padding-right: 1.38889%;
+  }
+  /* line 88, /Volumes/Samsung_T3/MMP 240/Election Project/election-project/sass/_page-register.scss */
+  .register .take-action .get-involved {
+    width: 50%;
+    float: right;
+    padding-left: 1.38889%;
+    padding-right: 1.38889%;
+  }
+  /* line 93, /Volumes/Samsung_T3/MMP 240/Election Project/election-project/sass/_page-register.scss */
+  .register .resources {
+    @inlcude span(12 break last);
+  }
+}
+
+@media (min-width: 1200px) {
+  /* line 105, /Volumes/Samsung_T3/MMP 240/Election Project/election-project/sass/_page-register.scss */
+  .register .register-status .eligibility {
+    clear: both;
+    width: 33.33333%;
+    float: left;
+    padding-left: 1.38889%;
+    padding-right: 1.38889%;
+  }
+  /* line 108, /Volumes/Samsung_T3/MMP 240/Election Project/election-project/sass/_page-register.scss */
+  .register .register-status .check-reg {
+    clear: none;
+    width: 33.33333%;
+    float: left;
+    padding-left: 1.38889%;
+    padding-right: 1.38889%;
+  }
+  /* line 111, /Volumes/Samsung_T3/MMP 240/Election Project/election-project/sass/_page-register.scss */
+  .register .register-status .change-reg {
+    width: 33.33333%;
+    float: right;
+    padding-left: 1.38889%;
+    padding-right: 1.38889%;
+  }
+  /* line 117, /Volumes/Samsung_T3/MMP 240/Election Project/election-project/sass/_page-register.scss */
+  .register .how-to-register .introduction {
+    clear: both;
+    width: 100%;
+    float: left;
+    padding-left: 1.38889%;
+    padding-right: 1.38889%;
+  }
+  /* line 121, /Volumes/Samsung_T3/MMP 240/Election Project/election-project/sass/_page-register.scss */
+  .register .how-to-register .in-person {
+    clear: both;
+    width: 33.33333%;
+    float: left;
+    padding-left: 1.38889%;
+    padding-right: 1.38889%;
+  }
+  /* line 124, /Volumes/Samsung_T3/MMP 240/Election Project/election-project/sass/_page-register.scss */
+  .register .how-to-register .mail-in {
+    width: 33.33333%;
+    float: left;
+    padding-left: 1.38889%;
+    padding-right: 1.38889%;
+  }
+  /* line 127, /Volumes/Samsung_T3/MMP 240/Election Project/election-project/sass/_page-register.scss */
+  .register .how-to-register .online {
+    width: 33.33333%;
+    float: right;
+    padding-left: 1.38889%;
+    padding-right: 1.38889%;
+  }
+  /* line 135, /Volumes/Samsung_T3/MMP 240/Election Project/election-project/sass/_page-register.scss */
+  .register .special-populations .student-voters {
+    clear: both;
+    width: 33.33333%;
+    float: left;
+    padding-left: 1.38889%;
+    padding-right: 1.38889%;
+  }
+  /* line 138, /Volumes/Samsung_T3/MMP 240/Election Project/election-project/sass/_page-register.scss */
+  .register .special-populations .homeless-voters {
+    clear: none;
+    width: 33.33333%;
+    float: left;
+    padding-left: 1.38889%;
+    padding-right: 1.38889%;
+  }
+  /* line 141, /Volumes/Samsung_T3/MMP 240/Election Project/election-project/sass/_page-register.scss */
+  .register .special-populations .overseas-voters {
+    width: 33.33333%;
+    float: right;
+    padding-left: 1.38889%;
+    padding-right: 1.38889%;
+  }
 }
 
 /*# sourceMappingURL=../css/style.map */

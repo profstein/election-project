@@ -1,6 +1,7 @@
 //nest everything in the register class to ensure it only applies to this page
 .register{
 
+    // BASE PAGE STYLING =========================================================
     .intro-info{
         @include clearfix;
         .deadline{
@@ -32,4 +33,118 @@
         background-color: $palette3;
         @include clearfix;
     }//.resources
+
+    // TABLET LAYOUT STYLING =========================================================
+
+    @include for-tablet-portrait-up{
+        .section-container{
+            @include container;
+        }
+
+        .intro-info{
+            .register-info{
+                @include span(8 break);
+            }
+            .deadline{
+                @include span(4 last);
+            }
+        }//end intro info
+
+        .register-status{
+
+            .eligibility{
+                @include span(12 last);
+            }
+            .check-reg{
+                @include span(6 break);
+            }
+            .change-reg{
+                @include span(6 last);
+            }
+        }//end register status
+
+        .how-to-register{
+            @include span(12 last);
+        }
+
+        .special-populations{
+            clear:both; //was bleeding up into how to register
+            .student-voters{
+                @include span(12 last);
+            }
+            .homeless-voters{
+                @include span(6 break);
+            }
+            .overseas-voters{
+                @include span(6 last);
+            }
+        }//end .special-populations
+
+        .take-action{
+            .events{
+                @include span(6 break);
+            }
+
+            .get-involved{
+                @include span(6 last);
+            }
+        }// end take-action
+
+        .resources{
+            @inlcude span(12 break last);
+        }
+
+
+    }//end for-tablet-portrait-up ================
+
+
+    //BEGIN for-desktop-up =================
+    @include for-desktop-up{
+
+        .register-status{
+            .eligibility{
+                @include span(4 break);
+            }
+            .check-reg{
+                @include span(4 nobreak);
+            }
+            .change-reg{
+                @include span(4 last);
+            }
+        }// end .register-status
+
+        .how-to-register{
+            .introduction{
+                @include span(12 break);
+            }
+
+            .in-person{
+                @include span(4 break);
+            }
+            .mail-in{
+                @include span(4);
+            }
+            .online{
+                @include span(4 last);
+            }
+
+        }//end how-to-register
+
+
+        .special-populations{
+            .student-voters{
+                @include span(4 break);
+            }
+            .homeless-voters{
+                @include span(4 nobreak);
+            }
+            .overseas-voters{
+                @include span(4 last);
+            }
+        }//end special-populations
+
+
+    } //end for-desktop-up ===================
+
+
 }
