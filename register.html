@@ -82,12 +82,12 @@
                         <h2>How to Register to Vote</h2>
                         <p>In New York State there are three ways to register to vote:</p>
                         <ol>
-                            <li>In-Person</li>
-                            <li>Mail-in</li>
-                            <li>Online</li>
+                            <li id="in-person" class="toggle-link">In-Person</li>
+                            <li id="mail-in" class="toggle-link">Mail-in</li>
+                            <li id="online" class="toggle-link">Online</li>
                         </ol>
                     </div>
-                    <div class="register-option in-person">
+                    <div class="register-option in-person-content">
                         <h3>Option 1: In-Person Registration</h3>
                         <p>You can go in person to get and complete a registration form.</p>
                         <h4>Deadline</h4>
@@ -120,7 +120,7 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="register-option mail-in">
+                    <div class="register-option mail-in-content">
                         <h3>Option 2: Mail-in Registration</h3>
                         <p>You may also mail in your registration form.</p>
                         <h4>Deadline:</h4>
@@ -167,7 +167,7 @@
                             <br> Phone: 718-876-0079
                             <br> Fax: 718-876-0912 </p>
                     </div>
-                    <div class="register-option online">
+                    <div class="register-option online-content">
                         <h3>Option 3: Online Voter Registration</h3>
                         <p>You can also register online, if you are eligible.</p>
                         <h4>Deadline:</h4>
@@ -274,6 +274,24 @@
     <script>
         jQuery(document).ready(function ($) {
             // Your jQuery code here, using $ to refer to jQuery.
+
+            //hide the content to start
+            $(".in-person-content").hide();
+            $(".mail-in-content").hide();
+            $(".online-content").hide();
+
+            //toggle the content when options are clicked
+            $("#in-person").click(function(){
+               $(".in-person-content").slideToggle("slow");
+            });
+            $("#mail-in").click(function(){
+               $(".mail-in-content").slideToggle("slow");
+            });
+            $("#online").click(function(){
+               $(".online-content").slideToggle("slow");
+            });
+
+
             /* 
                This is the code to slide the main navigation up and down.
             */
