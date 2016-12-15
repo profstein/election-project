@@ -1,0 +1,50 @@
+//LISTS
+li{
+    margin-bottom: 1em;
+}
+//PAGE HEADER STYLING
+.page-header{
+    @include container;
+    background-color: $primary;
+    padding: gutter();
+    color:#fff;
+
+    .logo{
+        @include span(5);
+    }
+
+    h1{
+        @include span(7);
+    }
+
+}
+
+//PAGE FOOTER STYLING
+.page-footer{
+    @include container;
+    background-color: $primary;
+    padding: gutter();
+    color:#fff;
+
+    .copyright{
+        @include span(6);
+    }
+    .about{
+        @include span(6 last);
+    }
+
+}
+
+
+// LINK Styling
+a{
+    color: $highlight;
+    text-decoration: none;
+    &:visited{
+        color: darken($highlight, 15%);
+    }
+
+    &:hover{
+        border-bottom: $highlight 2px solid;
+    }
+}
