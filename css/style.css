@@ -904,6 +904,40 @@ a:hover {
   border-bottom: #AC0000 2px solid;
 }
 
+/* line 54, /Volumes/Samsung_T3/MMP 240/Election Project/election-project/sass/_general.scss */
+.toggle-link {
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+/* line 58, /Volumes/Samsung_T3/MMP 240/Election Project/election-project/sass/_general.scss */
+.toggle-link:hover {
+  cursor: pointer;
+  color: #AC0000;
+}
+
+/* line 61, /Volumes/Samsung_T3/MMP 240/Election Project/election-project/sass/_general.scss */
+.toggle-link:hover:before {
+  content: "\f111";
+}
+
+/* line 67, /Volumes/Samsung_T3/MMP 240/Election Project/election-project/sass/_general.scss */
+.toggle-link:before {
+  font-family: FontAwesome;
+  content: "\f10c";
+  letter-spacing: 10px;
+}
+
+/* line 74, /Volumes/Samsung_T3/MMP 240/Election Project/election-project/sass/_general.scss */
+.toggle-link.active {
+  color: #AC0000;
+}
+
+/* line 77, /Volumes/Samsung_T3/MMP 240/Election Project/election-project/sass/_general.scss */
+.toggle-link.active:before {
+  content: "\f111";
+}
+
 /* line 3, /Volumes/Samsung_T3/MMP 240/Election Project/election-project/sass/_utilities.scss */
 .register .intro-info:before, .register .intro-info:after {
   content: " ";

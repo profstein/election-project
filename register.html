@@ -6,8 +6,7 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>G.O.T. Vote 2016: Register to Vote</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!--    <link rel="stylesheet" href="css/normalized-reset.css">-->
-    <!--    <link rel="stylesheet" href="css/navigation.css">-->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <script src="js/vendor/modernizr2.8.3.min.js"></script>
 </head>
@@ -283,12 +282,15 @@
             //toggle the content when options are clicked
             $("#in-person").click(function(){
                $(".in-person-content").slideToggle("slow");
+                $("#in-person").toggleClass("active");
             });
             $("#mail-in").click(function(){
                $(".mail-in-content").slideToggle("slow");
+                $("#mail-in").toggleClass("active");
             });
             $("#online").click(function(){
                $(".online-content").slideToggle("slow");
+                $("#online").toggleClass("active");
             });
 
 

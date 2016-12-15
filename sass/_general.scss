@@ -48,3 +48,40 @@ a{
         border-bottom: $highlight 2px solid;
     }
 }
+
+
+//SLIDE TOGGLE LINKS ===============
+.toggle-link{
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+
+    &:hover{
+        cursor: pointer;
+        color: $highlight;
+        &:before{
+            content: "\f111";
+//            content: "\f0d7";r
+        }
+    }
+
+    &:before{
+        font-family: FontAwesome;
+        content: "\f10c";
+//        content: "\f0da";
+        letter-spacing: 10px;
+    }
+
+    &.active{
+        color: $highlight;
+    }
+    &.active:before{
+        content: "\f111";
+//        content: "\f0d7";
+    }
+}//end toggle link
+
+
+
+
+
+
